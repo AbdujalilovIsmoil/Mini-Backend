@@ -16,3 +16,5 @@ app.get("/api/users", (req, res) => {
 app.listen(PORT, () => {
   console.log("RUN SERVER: ", PORT);
 });
+
+export default app;
